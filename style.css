@@ -185,8 +185,8 @@ nav a.active {
 }
 
 .paper {
-  margin-bottom: 28px;
-  padding-bottom: 24px;
+  margin-bottom: 14px;
+  padding-bottom: 12px;
   border-bottom: 1px solid #e8e8e8;
 }
 .paper:last-child { border-bottom: none; }
