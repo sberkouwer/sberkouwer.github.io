@@ -132,7 +132,7 @@ nav a.active {
 .btn-cv:hover { background: #444; text-decoration: none; }
 
 .main-col .photo {
-  max-width: 75%;
+  max-width: 100%;
   width: 100%;
   display: block;
   margin-bottom: 20px;
