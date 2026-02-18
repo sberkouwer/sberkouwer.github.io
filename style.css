@@ -21,9 +21,7 @@ li { margin-bottom: 0.25em; }
 .header {
   border-bottom: 1px solid #ddd;
   background: #fafafa;
-  position: sticky;
-  top: 0;
-  z-index: 100;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -180,8 +178,8 @@ nav a.active {
   font-size: 22px;
   font-weight: 700;
   border-bottom: 2px solid #eee;
-  padding-bottom: 8px;
-  margin-bottom: 24px;
+  padding-bottom: 4px;
+  margin-bottom: 12px;
 }
 
 .paper {
