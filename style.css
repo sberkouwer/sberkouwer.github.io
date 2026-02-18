@@ -215,7 +215,7 @@ nav a.active {
 .paper .venue {
   font-size: 15px;
   font-weight: 600;
-  margin-bottom: 4px;
+  margin-bottom: 1px;
 }
 
 .paper .links {
@@ -230,7 +230,7 @@ nav a.active {
 .paper .related {
   font-size: 15px;
   color: #666;
-  margin-top: 3px;
+  margin-top: 1px;
 }
 .paper .related summary {
   cursor: pointer;
@@ -250,6 +250,10 @@ nav a.active {
   font-weight: 600;
   font-size: 15px;
   color: #333;
+}
+
+.paper details {
+  margin-top: 6px;
 }
 
 .paper details summary {
