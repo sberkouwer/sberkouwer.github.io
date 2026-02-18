@@ -47,7 +47,7 @@ nav {
 
 nav a {
   color: #333;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   padding: 4px 0;
   border-bottom: 2px solid transparent;
@@ -102,18 +102,18 @@ nav a.active {
 }
 
 .sidebar h3 {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 3px;
 }
 .sidebar h3:first-child { margin-top: 0; }
 
-.sidebar p { margin-bottom: 2px; font-size: 16px; }
+.sidebar p { margin-bottom: 2px; font-size: 15px; }
 
 .sidebar ul {
   margin-bottom: 6px;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .sidebar li { margin-bottom: 1px; }
@@ -124,7 +124,7 @@ nav a.active {
   color: #fff;
   padding: 6px 20px;
   border-radius: 3px;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
   margin-bottom: 18px;
   transition: background 0.2s;
@@ -139,13 +139,13 @@ nav a.active {
 }
 
 .main-col h3 {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
   margin-bottom: 4px;
 }
 
 .main-col p {
-  font-size: 16px;
+  font-size: 15px;
   margin-bottom: 6px;
 }
 
@@ -156,7 +156,7 @@ nav a.active {
 
 .media-preview h3 {
   text-align: left;
-  font-size: 16px;
+  font-size: 15px;
   margin-bottom: 16px;
 }
 
@@ -192,25 +192,34 @@ nav a.active {
 .paper:last-child { border-bottom: none; }
 
 .paper h3 {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
   margin-bottom: 2px;
 }
 
+.paper h3 a {
+  color: #1a5fb4;
+  font-weight: 700;
+}
+
+.paper h3 a:hover {
+  text-decoration: underline;
+}
+
 .paper .authors {
-  font-size: 16px;
+  font-size: 15px;
   color: #555;
   margin-bottom: 2px;
 }
 
 .paper .venue {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
   margin-bottom: 4px;
 }
 
 .paper .links {
-  font-size: 16px;
+  font-size: 15px;
   margin-bottom: 4px;
 }
 
@@ -219,7 +228,7 @@ nav a.active {
 }
 
 .paper .related {
-  font-size: 16px;
+  font-size: 15px;
   color: #666;
   margin-top: 3px;
 }
@@ -231,7 +240,7 @@ nav a.active {
 }
 
 .paper .abstract {
-  font-size: 16px;
+  font-size: 15px;
   color: #444;
   margin-top: 3px;
   line-height: 1.55;
@@ -239,12 +248,12 @@ nav a.active {
 .paper .abstract summary {
   cursor: pointer;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 15px;
   color: #333;
 }
 
 .paper details summary {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 /* ── Media page ── */
@@ -253,13 +262,13 @@ nav a.active {
 }
 
 .media-item h3 {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 700;
   margin-bottom: 4px;
 }
 
 .media-item .media-source {
-  font-size: 13px;
+  font-size: 12px;
   color: #666;
   margin-bottom: 10px;
 }
@@ -299,25 +308,25 @@ nav a.active {
 }
 
 .resources-section h2 {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 700;
   margin-bottom: 12px;
 }
 
 .resources-section p {
-  font-size: 16px;
+  font-size: 15px;
   margin-bottom: 10px;
 }
 
 .resources-section ul {
-  font-size: 16px;
+  font-size: 15px;
   margin-bottom: 14px;
 }
 
 /* ── Data page ── */
 .data-section p,
 .data-content p {
-  font-size: 16px;
+  font-size: 15px;
   max-width: 800px;
   margin-bottom: 14px;
   line-height: 1.7;
@@ -345,7 +354,7 @@ nav a.active {
     gap: 0;
   }
   nav.open { display: flex; }
-  nav a { padding: 10px 0; border-bottom: 1px solid #eee; font-size: 15px; }
+  nav a { padding: 10px 0; border-bottom: 1px solid #eee; font-size: 14px; }
 
   .home-grid {
     grid-template-columns: 1fr;
