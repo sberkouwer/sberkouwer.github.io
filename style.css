@@ -223,6 +223,10 @@ nav a.active {
   margin-top: 4px;
 }
 
+.paper-toggles details {
+  flex: 0 0 auto;
+}
+
 .paper-toggles details summary {
   cursor: pointer;
   font-weight: 600;
