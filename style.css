@@ -215,46 +215,38 @@ nav a.active {
   margin-bottom: 1px;
 }
 
-.paper .links {
-  font-size: 15px;
+.paper-toggles {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 14px;
+  row-gap: 4px;
+  margin-top: 4px;
+}
+
+.paper-toggles details summary {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 13px;
+  color: #1a5fb4;
+}
+
+.paper-toggles details[open] {
+  flex-basis: 100%;
+}
+
+.paper-toggles .toggle-content {
+  font-size: 13px;
+  color: #666;
+  margin-top: 2px;
   margin-bottom: 4px;
 }
 
-.paper .links a {
-  margin-right: 12px;
-}
-
-.paper .related {
-  font-size: 15px;
-  color: #666;
-  margin-top: 1px;
-}
-.paper .related summary {
-  cursor: pointer;
-  font-weight: 600;
-  color: #333;
-  margin-bottom: 2px;
-}
-
-.paper .abstract {
-  font-size: 15px;
+.paper-toggles .abstract {
+  font-size: 14px;
   color: #444;
-  margin-top: 3px;
+  margin-top: 2px;
+  margin-bottom: 4px;
   line-height: 1.4;
-}
-.paper .abstract summary {
-  cursor: pointer;
-  font-weight: 600;
-  font-size: 15px;
-  color: #333;
-}
-
-.paper details {
-  margin-top: 6px;
-}
-
-.paper details summary {
-  font-size: 15px;
 }
 
 /* ── Media page ── */
