@@ -234,8 +234,14 @@ nav a.active {
   color: #1a5fb4;
 }
 
+.paper .paper-toggles details summary::marker {
+  font-weight: normal;
+  color: #bbb;
+}
+
 .paper-toggles details[open] {
   flex-basis: 100%;
+  order: 1;
 }
 
 .paper-toggles .toggle-content {
