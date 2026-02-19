@@ -227,7 +227,7 @@ nav a.active {
   flex: 0 0 auto;
 }
 
-.paper-toggles details summary {
+.paper .paper-toggles details summary {
   cursor: pointer;
   font-weight: 600;
   font-size: 13px;
