@@ -116,6 +116,8 @@ nav a.active {
 
 .sidebar li { margin-bottom: 1px; }
 
+.sidebar .contact-block { margin-top: 20px; }
+
 .btn-cv {
   display: inline-block;
   background: #333;
