@@ -215,6 +215,10 @@ nav a.active {
   margin-bottom: 1px;
 }
 
+.paper .venue .status {
+  font-weight: normal;
+}
+
 .paper-toggles {
   margin-top: 4px;
 }
