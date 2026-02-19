@@ -185,6 +185,7 @@ nav a.active {
 .paper {
   margin-bottom: 14px;
   padding-bottom: 12px;
+  line-height: 1.3;
 }
 
 .paper h3 {
@@ -239,7 +240,7 @@ nav a.active {
   font-size: 15px;
   color: #444;
   margin-top: 3px;
-  line-height: 1.55;
+  line-height: 1.4;
 }
 .paper .abstract summary {
   cursor: pointer;
