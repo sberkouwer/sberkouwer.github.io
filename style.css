@@ -216,45 +216,40 @@ nav a.active {
 }
 
 .paper-toggles {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 14px;
-  row-gap: 4px;
   margin-top: 4px;
 }
 
-.paper-toggles details {
-  flex: 0 0 auto;
-}
-
-.paper .paper-toggles details summary {
+.toggle-btn {
   cursor: pointer;
-  font-weight: 600;
   font-size: 13px;
+  font-weight: 600;
   color: #1a5fb4;
+  margin-right: 14px;
 }
 
-.paper .paper-toggles details summary::marker {
-  font-weight: normal;
+.toggle-btn::before {
+  content: '\25B8 ';
   color: #bbb;
+  font-weight: normal;
 }
 
-.paper-toggles details[open] {
-  flex-basis: 100%;
-  order: 1;
+.toggle-btn.active::before {
+  content: '\25BE ';
 }
 
-.paper-toggles .toggle-content {
-  font-size: 15px;
-  color: #666;
+.toggle-panel {
   margin-top: 2px;
   margin-bottom: 4px;
 }
 
-.paper-toggles .abstract {
+.toggle-panel .toggle-content {
+  font-size: 15px;
+  color: #666;
+}
+
+.toggle-panel .abstract {
   font-size: 15px;
   color: #444;
-  margin-top: 2px;
   margin-bottom: 4px;
   line-height: 1.4;
 }
