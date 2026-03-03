@@ -84,6 +84,17 @@ nav a.active {
 .hamburger span::before { top: -7px; }
 .hamburger span::after  { top: 7px; }
 
+/* ── Announcement Banner ── */
+.announcement-banner {
+  background: #f0f4fa;
+  border-bottom: 1px solid #d0d8e8;
+  text-align: center;
+  padding: 12px 30px;
+  font-size: 15px;
+  color: #333;
+  line-height: 1.5;
+}
+
 /* ── Main Content ── */
 .container {
   max-width: 1100px;
