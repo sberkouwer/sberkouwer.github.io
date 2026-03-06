@@ -349,16 +349,6 @@ nav a.active {
   line-height: 1.7;
 }
 
-
-/* ── Slides page ── */
-.slides-section p,
-.slides-content p {
-  font-size: 15px;
-  max-width: 800px;
-  margin-bottom: 14px;
-  line-height: 1.7;
-}
-
 /* ── Footer ── */
 .site-footer {
   border-top: 1px solid #eee;
