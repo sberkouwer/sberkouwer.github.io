@@ -160,6 +160,10 @@ nav a.active {
   margin-bottom: 6px;
 }
 
+.about + .about {
+  margin-top: 24px;
+}
+
 /* Recent media section */
 .media-preview {
   margin-top: 30px;
