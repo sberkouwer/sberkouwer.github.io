@@ -160,6 +160,10 @@ nav a.active {
   margin-bottom: 6px;
 }
 
+.main-col ul {
+  font-size: 15px;
+}
+
 .about + .about {
   margin-top: 24px;
 }
