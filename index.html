@@ -10,6 +10,28 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <style>
+    .container .home-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 2rem;
+    }
+    .home-grid > .sidebar,
+    .home-grid > .main-col {
+      width: auto;
+      min-width: 0;
+    }
+    .home-grid > .sidebar > .photo {
+      display: block;
+      float: none;
+      margin: 0 0 1.5rem;
+    }
+    @media (min-width: 769px) {
+      .container .home-grid {
+        grid-template-columns: 33% minmax(0, 1fr);
+      }
+    }
+  </style>
 </head>
 <body>
   <header class="header">
@@ -35,11 +57,13 @@
   <main class="container">
     <div class="home-grid">
       <div class="sidebar">
+        <img class="photo" src="headshot.jpg" alt="Susanna Berkouwer" width="956" height="1230" style="width: 160px; max-width: 100%; height: auto;">
+
         <a class="btn-cv" href="BerkouwerCV.pdf" target="_blank">CV</a>
 
         <p>Assistant Professor<br>Business Economics &amp; Public Policy<br>The Wharton School<br>University of Pennsylvania</p>
 
-        <h3>External affiliations</h3>
+        <h3>Affiliations</h3>
         <ul>
           <li>Associate Editor, Journal of Development Economics</li>
           <li>Editorial Council, Journal of Environmental Economics and Management</li>
@@ -52,8 +76,7 @@
         <div class="contact-block">
           <h3>Contact</h3>
           <p>
-            322 Dinan Hall<br>
-            3733 Spruce Street, Philadelphia<br>
+            322 Dinan Hall, 3733 Spruce Street, Philadelphia<br>
             sberkou&#64;wharton.upenn.edu
           </p>
           <p><a href="https://orcid.org/my-orcid?orcid=0000-0001-7987-8657" target="_blank">ORCID</a>, <a href="https://scholar.google.com/citations?user=iAoI2ZAAAAAJ&hl=en" target="_blank">Google Scholar</a>, <a href="https://www.webofscience.com/wos/author/record/KHE-3983-2024" target="_blank">Web of Science</a>, <a href="https://bepp.wharton.upenn.edu/profile/sberkou/" target="_blank">Wharton webpage</a>, <a href="https://www.linkedin.com/in/susannaberkouwer" target="_blank">LinkedIn</a></p>
@@ -61,13 +84,18 @@
       </div>
 
       <div class="main-col">
-        <img class="photo" src="headshot.jpg" alt="Susanna Berkouwer" width="956" height="1230" style="width: 160px; max-width: 100%; height: auto;">
-
         <div class="about">
-          <p>I study development economics and environmental economic using experimental and non-experimental methods.</p>
-          <p>I occasionally co-organize the <a href="https://bepp.wharton.upenn.edu/research/development-workshop/" target="_blank">Development Economics</a> seminar, the <a href="https://kleinmanenergy.upenn.edu/events/energy-economics-and-finance-seminar-eugenie-dugoua/" target="_blank">Energy Economics and Finance</a> seminar, and the <a href="https://bepp.wharton.upenn.edu/research/seminars-conferences/" target="_blank">Applied Economics Workshop</a>.</p>
+          <p>I study development economics and environmental economic using experimental and non-experimental methods. I occasionally co-organize the <a href="https://bepp.wharton.upenn.edu/research/development-workshop/" target="_blank">Development Economics</a> seminar, the <a href="https://kleinmanenergy.upenn.edu/events/energy-economics-and-finance-seminar-eugenie-dugoua/" target="_blank">Energy Economics and Finance</a> seminar, and the <a href="https://bepp.wharton.upenn.edu/research/seminars-conferences/" target="_blank">Applied Economics Workshop</a>.</p>
           <p>Please use <a href="https://www.mypronouns.org/they-them" target="_blank">they/them</a> pronouns when referring to me.</p>
         </div>
+
+        <section class="research-section">
+          <h2>Working papers</h2>
+          <div class="paper">
+            <h3><a href="BerkouwerDean_EEE.pdf" target="_blank">Green subsidies with demand distortions</a></h3>
+            <p class="authors">with J. Dean</p>
+          </div>
+        </section>
 
 
 
