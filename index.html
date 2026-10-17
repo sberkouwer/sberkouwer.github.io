@@ -11,6 +11,29 @@
   <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <style>
+    body { line-height: 1.5; }
+    .home-grid .paper {
+      margin-bottom: 20px;
+      padding-bottom: 0;
+    }
+    .home-grid .paper > p {
+      margin: 0;
+      line-height: 1.5;
+    }
+    .home-grid .paper .venue {
+      font-weight: normal;
+    }
+    .home-grid .sidebar p,
+    .home-grid .sidebar ul,
+    .home-grid .main-col p,
+    .home-grid .main-col ul,
+    .home-grid .paper .authors,
+    .home-grid .btn-cv,
+    .home-grid .sidebar h3,
+    .home-grid .main-col h3,
+    .header nav a {
+      font-size: 17px;
+    }
     .container .home-grid {
       display: grid;
       grid-template-columns: minmax(0, 1fr);
@@ -57,21 +80,12 @@
   <main class="container">
     <div class="home-grid">
       <div class="sidebar">
-        <img class="photo" src="headshot.jpg" alt="Susanna Berkouwer" width="956" height="1230" style="width: 160px; max-width: 100%; height: auto;">
+        <img class="photo" src="headshot.jpg" alt="Susanna Berkouwer" width="956" height="1230" style="width: 280px; max-width: 100%; height: auto;">
 
         <a class="btn-cv" href="BerkouwerCV.pdf" target="_blank">CV</a>
 
         <p>Assistant Professor<br>Business Economics &amp; Public Policy<br>The Wharton School<br>University of Pennsylvania</p>
 
-        <h3>Affiliations</h3>
-        <ul>
-          <li>Associate Editor, Journal of Development Economics</li>
-          <li>Editorial Council, Journal of Environmental Economics and Management</li>
-          <li><a href="https://www.nber.org/" target="_blank">NBER</a> Faculty Research Fellow (DEV, EEE)</li>
-          <li><a href="https://www.ibread.org/" target="_blank">BREAD</a> Affiliate</li>
-          <li><a href="https://www.povertyactionlab.org/" target="_blank">J-PAL</a> Affiliate</li>
-          <li><a href="https://www.theigc.org/" target="_blank">IGC</a> Affiliate</li>
-        </ul>
 
         <div class="contact-block">
           <h3>Contact</h3>
@@ -89,11 +103,45 @@
           <p>Please use <a href="https://www.mypronouns.org/they-them" target="_blank">they/them</a> pronouns when referring to me.</p>
         </div>
 
-        <section class="research-section">
-          <h2>Working papers</h2>
+        <section class="research-section" style="margin-top: 3rem;">
+          <h3>Working papers</h3>
           <div class="paper">
-            <h3><a href="BerkouwerDean_EEE.pdf" target="_blank">Green subsidies with demand distortions</a></h3>
+            <p style="font-weight: normal;"><a href="BerkouwerDean_EEE.pdf" target="_blank" style="font-weight: normal;">Green subsidies with demand distortions</a></p>
             <p class="authors">with J. Dean</p>
+          </div>
+          <div class="paper">
+            <p style="font-weight: normal;"><a href="WBVHKM_LMCP.pdf" target="_blank" style="font-weight: normal;">The distribution of power: Favoritism, efficiency, and equity in energy infrastructure</a></p>
+            <p class="authors">with C. Wolfram, E. Hsu, O. Kim, F. Vial, and E. Miguel</p>
+            <p class="venue"><span class="status">Revision requested, Journal of the European Economic Association</span></p>
+          </div>
+        </section>
+
+        <section class="research-section">
+          <h3>Recent publications</h3>
+          <div class="paper">
+            <p style="font-weight: normal;"><a href="BBMPW_Voltage_Ghana.pdf" target="_blank" style="font-weight: normal;">Voltage quality and economic activity</a></p>
+            <p class="authors">with P. Biscaye, M. Mikdash, S. Puller, and C. Wolfram</p>
+            <p class="venue">Journal of Political Economy: Microeconomics (accepted)</p>
+          </div>
+          <div class="paper">
+            <p style="font-weight: normal;"><a href="WMHB_donorprocurement.pdf" target="_blank" style="font-weight: normal;">Contracting structures in public procurement: Evidence from donor-funded electrification in Kenya</a></p>
+            <p class="authors">with C. Wolfram, E. Miguel, and E. Hsu</p>
+            <p class="venue">Review of Economics and Statistics (accepted)</p>
+          </div>
+          <div class="paper">
+            <p style="font-weight: normal;"><a href="BerkouwerDean_Abatement.pdf" target="_blank" style="font-weight: normal;">The cost-effectiveness of clean cookstove carbon mitigation after adjusting for additionality and impact</a></p>
+            <p class="authors">with J. Dean</p>
+            <p class="venue">Climate Change Economics (2026)</p>
+          </div>
+          <div class="paper">
+            <p style="font-weight: normal;"><a href="BerkouwerDean_Health.pdf" target="_blank" style="font-weight: normal;">Cooking, health, and daily exposure to pollution spikes</a></p>
+            <p class="authors">with J. Dean</p>
+            <p class="venue">American Economic Journal: Economic Policy (2026)</p>
+          </div>
+          <div class="paper">
+            <p style="font-weight: normal;"><a href="2022AERBerkouwerDean.pdf" target="_blank" style="font-weight: normal;">Credit, attention, and externalities in the adoption of energy efficient technologies by low-income households</a></p>
+            <p class="authors">with J. Dean</p>
+            <p class="venue">American Economic Review (2022)</p>
           </div>
         </section>
 
