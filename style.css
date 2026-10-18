@@ -19,6 +19,7 @@ li { margin-bottom: 0.25em; }
 
 /* ── Header / Nav ── */
 .header {
+  line-height: 1.6;
   border-bottom: 1px solid #ddd;
   background: #fafafa;
   position: relative;
@@ -31,7 +32,7 @@ li { margin-bottom: 0.25em; }
 
 .site-title {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: normal;
   color: #333;
   letter-spacing: 0.3px;
   white-space: nowrap;
