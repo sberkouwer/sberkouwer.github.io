@@ -386,8 +386,5 @@ nav a.active {
     gap: 24px;
   }
 
-  .home-grid .sidebar { order: 2; }
-  .home-grid .main-col { order: 1; }
-
   .main-col .photo { max-width: 80%; }
 }
