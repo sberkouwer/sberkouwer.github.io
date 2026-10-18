@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <style>
-    .toggle-btn { font-weight: normal; }
+    body, body * { font-weight: normal !important; }
   </style>
 </head>
 <body>
@@ -36,8 +36,12 @@
         <p class="authors">S. Berkouwer and J. Dean</p>
         <p class="venue"><span class="status">Submitted</span></p>
         <div class="paper-toggles">
+          <span class="toggle-btn" data-target="abstract">Abstract</span>
           <span class="toggle-btn" data-target="materials">Related materials</span>
           <span class="toggle-btn" data-target="writing">Related media and writing</span>
+        </div>
+        <div class="toggle-panel" data-panel="abstract" hidden>
+          <p class="abstract">Credit constraints and other demand distortions are pervasive in lower-income contexts. A model of clean technology adoption shows that demand distortions can increase the welfare gains from green subsidies. This arises through two channels: shifting the marginal adopter toward higher private and social benefits, and increasing demand elasticity. We test this by cross-randomizing purchase price subsidies, usage subsidies, and access to an interest-free loan for a US$84 induction stove among 2,134 charcoal users in Kenya. Usage subsidies of 75% have a precise zero effect on adoption and usage. Purchase price subsidies, however, generate large welfare gains. Credit constraints raise the subsidy's efficacy by 35%&ndash;73%, up to US$10&ndash;US$12 in observable welfare gain per subsidy dollar. This demand distortion also lowers the subsidy cost of abatement by 41%, to US$12 per tCO<sub>2</sub>e. This operates through the two channels identified in the theory: credit constraints raise the marginal adopter's positive externality by 19% and fuel savings by 30%, and lower the subsidy cost per marginal adoption by 29%. In a counterfactual without demand distortions, the abatement cost rises to US$137 per tCO<sub>2</sub>e. Contexts with large demand distortions could offer many cost-effective opportunities for climate change mitigation financing.</p>
         </div>
         <div class="toggle-panel" data-panel="materials" hidden>
           <ul class="toggle-content materials-list">
@@ -56,7 +60,7 @@
       <div class="paper">
         <h3><a href="WBVHKM_LMCP.pdf" target="_blank">The distribution of power: Favoritism, efficiency, and equity in energy infrastructure</a></h3>
         <p class="authors">C. Wolfram, E. Hsu, S. Berkouwer, O. Kim, F. Vial, and E. Miguel</p>
-        <p class="venue"><span class="status">Revision requested, Journal of the European Economic Association</span></p>
+        <p class="venue"><span class="status">Revision requested, <em>Journal of the European Economic Association</em></span></p>
         <div class="paper-toggles">
           <span class="toggle-btn" data-target="abstract">Abstract</span>
           <span class="toggle-btn" data-target="materials">Related materials</span>
@@ -99,7 +103,7 @@
       <div class="paper">
         <h3><a href="BBMPW_Voltage_Ghana.pdf" target="_blank">Voltage quality and economic activity</a></h3>
         <p class="authors">S. Berkouwer, P. Biscaye, M. Mikdash, S. Puller, and C. Wolfram</p>
-        <p class="venue">Journal of Political Economy: Microeconomics<span class="status">, Accepted</span></p>
+        <p class="venue"><em>Journal of Political Economy: Microeconomics</em><span class="status">, Accepted</span></p>
         <div class="paper-toggles">
           <span class="toggle-btn" data-target="abstract">Abstract</span>
           <span class="toggle-btn" data-target="materials">Related materials</span>
@@ -127,7 +131,7 @@
       <div class="paper">
         <h3><a href="WMHB_donorprocurement.pdf" target="_blank">Contracting structures in public procurement: Evidence from donor-funded electrification in Kenya</a></h3>
         <p class="authors">C. Wolfram, E. Miguel, E. Hsu, and S. Berkouwer</p>
-        <p class="venue">Review of Economics and Statistics<span class="status">, Accepted</span></p>
+        <p class="venue"><em>Review of Economics and Statistics</em><span class="status">, Accepted</span></p>
         <div class="paper-toggles">
           <span class="toggle-btn" data-target="abstract">Abstract</span>
           <span class="toggle-btn" data-target="materials">Related materials</span>
@@ -159,7 +163,7 @@
       <div class="paper">
         <h3><a href="BerkouwerDean_Abatement.pdf" target="_blank">The cost-effectiveness of clean cookstove carbon mitigation after adjusting for additionality and impact</a></h3>
         <p class="authors">S. Berkouwer and J. Dean</p>
-        <p class="venue">Climate Change Economics (2026)</p>
+        <p class="venue"><em>Climate Change Economics</em> (2026)</p>
         <div class="paper-toggles">
           <span class="toggle-btn" data-target="abstract">Abstract</span>
           <span class="toggle-btn" data-target="materials">Related materials</span>
@@ -191,7 +195,7 @@
       <div class="paper">
         <h3><a href="BerkouwerDean_Health.pdf" target="_blank">Cooking, health, and daily exposure to pollution spikes</a></h3>
         <p class="authors">S. Berkouwer and J. Dean</p>
-        <p class="venue">American Economic Journal: Economic Policy (2026)</p>
+        <p class="venue"><em>American Economic Journal: Economic Policy</em> (2026)</p>
         <div class="paper-toggles">
           <span class="toggle-btn" data-target="abstract">Abstract</span>
           <span class="toggle-btn" data-target="materials">Related materials</span>
@@ -223,7 +227,7 @@
       <div class="paper">
         <h3><a href="BBHKLMW_Kenya.pdf" target="_blank">Money or Power? Choosing Covid-19 Aid in Kenya</a></h3>
         <p class="authors">S. Berkouwer, P. Biscaye, E. Hsu, O. Kim, K. Lee, E. Miguel, and C. Wolfram</p>
-        <p class="venue">Energy Economics (2023)</p>
+        <p class="venue"><em>Energy Economics</em> (2023)</p>
         <div class="paper-toggles">
           <span class="toggle-btn" data-target="abstract">Abstract</span>
           <span class="toggle-btn" data-target="materials">Related materials</span>
@@ -248,7 +252,7 @@
       <div class="paper">
         <h3><a href="2022AERBerkouwerDean.pdf" target="_blank">Credit, attention, and externalities in the adoption of energy efficient technologies by low-income households</a></h3>
         <p class="authors">S. Berkouwer and J. Dean</p>
-        <p class="venue">American Economic Review (2022)</p>
+        <p class="venue"><em>American Economic Review</em> (2022)</p>
         <div class="paper-toggles">
           <span class="toggle-btn" data-target="abstract">Abstract</span>
           <span class="toggle-btn" data-target="materials">Related materials</span>
@@ -285,7 +289,7 @@
       <div class="paper">
         <h3><a href="2022JDEBBPW.pdf" target="_blank">Disbursing emergency relief through utilities: Evidence from Ghana</a></h3>
         <p class="authors">S. Berkouwer, P. Biscaye, S. Puller, and C. Wolfram</p>
-        <p class="venue">Journal of Development Economics (2022)</p>
+        <p class="venue"><em>Journal of Development Economics</em> (2022)</p>
         <div class="paper-toggles">
           <span class="toggle-btn" data-target="abstract">Abstract</span>
           <span class="toggle-btn" data-target="materials">Related materials</span>
@@ -311,7 +315,7 @@
       <div class="paper">
         <h3><a href="2020EJBerkouwer.pdf" target="_blank">Electric heating and the effects of temperature on household electricity consumption in South Africa</a></h3>
         <p class="authors">S. Berkouwer</p>
-        <p class="venue">The Energy Journal (2020)</p>
+        <p class="venue"><em>The Energy Journal</em> (2020)</p>
         <div class="paper-toggles">
           <span class="toggle-btn" data-target="abstract">Abstract</span>
           <span class="toggle-btn" data-target="materials">Related materials</span>
@@ -385,7 +389,7 @@
       <div class="paper">
         <h3><a href="2014LGBTQBerkouwerSultanYehia.pdf" target="_blank">Homosexuality in Sudan and Egypt: Stories of Struggle for Survival</a></h3>
         <p class="authors">S. Berkouwer, A. Sultan, and S. Yehia</p>
-        <p class="venue">LGBTQ Policy Journal. 2014. Vol 4, p66-76.</p>
+        <p class="venue"><em>LGBTQ Policy Journal</em>. 2014. Vol 4, p66-76.</p>
         <div class="paper-toggles">
           <span class="toggle-btn" data-target="abstract">Abstract</span>
           <span class="toggle-btn" data-target="materials">Related materials</span>
